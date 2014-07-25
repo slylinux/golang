@@ -25,7 +25,7 @@ func main(){
 		return
 	}
 	t0:=time.Now()
-	for i:=0;i<1000000;i++{
+	for i:=0;i<1000;i++{
 		time.Sleep(100);
 		go add(i,i+2)
 }
