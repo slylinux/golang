@@ -28,7 +28,7 @@ func main(){
 	for i:=0;i<1000;i++{
 		time.Sleep(100);
 		go add(i,i+2)
-}
+	}
 	t1:=time.Now()
 	time.Sleep(10e9);
 	fmt.Println("time spent=",t1.Sub(t0));
