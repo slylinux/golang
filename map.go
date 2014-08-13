@@ -14,7 +14,7 @@ var (
 func main(){
 	s:="the string "
 	print(s)
-	fmt.Println("unsorted:",barVal)
+	fmt.Println(" unsorted:",barVal)
 	keys:=make([]string,len(barVal))
 	i:=0
 	for k,_:=range barVal{
